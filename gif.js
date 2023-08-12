@@ -12,14 +12,6 @@ const GIPHY_KEY = 'G37gLaEizhTkiBREF1bLvhKf1kKCAPhC';
       $('#thumbs').append($div)
     }
   
-    function showLoader() {
-      $('.loader-wrapper').addClass('shown');
-    }
-  
-    function hideLoader() {
-      $('.loader-wrapper').removeClass('shown');
-    }
-  
     (function listenOnFormSubmit() {
       $('#searchForm').submit((ev) => {
         ev.preventDefault();
